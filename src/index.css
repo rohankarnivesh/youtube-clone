@@ -101,9 +101,17 @@ a {
 }
 @media screen and (max-width: 500px) {
   .search-bar{
-    width:50px;
+    width:30%;
   }
   .logotext{
     font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .search-bar{
+    width:25%;
+  }
+  .logotext{
+    font-size: 1rem;
   }
 }
