@@ -99,7 +99,7 @@ a {
     width:150px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 350px) {
   .search-bar{
     width:50px;
   }
