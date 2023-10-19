@@ -87,7 +87,7 @@ a {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .scroll-horizontal {
     overflow: auto !important;
   }
@@ -96,6 +96,14 @@ a {
     height: 45vh !important;
   }
   .search-bar{
-    width:200px;
+    width:150px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .search-bar{
+    width:80px;
+  }
+  .logotext{
+    font-size: 1.5rem;
   }
 }
